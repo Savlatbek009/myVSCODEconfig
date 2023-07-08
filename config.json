@@ -1,30 +1,50 @@
 {
   "window.zoomLevel": 2,
-  "editor.formatOnSave": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorWidth": 3,
-  "workbench.colorTheme": "Community Material Theme",
   "workbench.iconTheme": "material-icon-theme",
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.enableSmartCommit": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "[scss]": {
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+  "git.autofetch": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "tabnine.experimentalAutoImports": true,
+  "easycode.userEmail": "savlatbek009@gmail.com",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  }
 }
