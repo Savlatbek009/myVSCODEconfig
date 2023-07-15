@@ -1,7 +1,5 @@
 {
   "window.zoomLevel": 2,
-  "editor.cursorBlinking": "expand",
-  "editor.cursorWidth": 3,
   "workbench.iconTheme": "material-icon-theme",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -11,6 +9,10 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#acacac",
+    "terminalCursor.foreground": "#ffffff"
+  },
   "git.enableSmartCommit": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -40,11 +42,14 @@
   "liveSassCompile.settings.generateMap": false,
   "liveServer.settings.donotVerifyTags": true,
   "tabnine.experimentalAutoImports": true,
-  "easycode.userEmail": "savlatbek009@gmail.com",
   "git.openRepositoryInParentFolders": "always",
   "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-  }
+  },
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLines": 12,
+  "editor.cursorWidth": 3,
+  "chatgpt.lang": "en",
 }
